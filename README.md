@@ -173,96 +173,77 @@ Data Gateway Integration
 
 📌 Page 1: Loan Default & Overview
 
-Loan amount is highest for Home loans (≈6545M), followed by Business and Education loans.
-Full-time employees have the highest average income, while unemployed customers have the lowest.
-Default rate is highest among unemployed applicants (3.39%) and lowest among full-time employees (2.36%).
-Adults receive the highest average loan amount, whereas Teen applicants receive the lowest.
-The default rate remained relatively stable around 11–12%, peaking in 2016 (11.75%) before declining.
+* Loan amount is highest for Home loans (≈6545M), followed by Business and Education loans.
+* Full-time employees have the highest average income, while unemployed customers have the lowest.
+* Default rate is highest among unemployed applicants (3.39%) and lowest among full-time employees (2.36%).
+* Adults receive the highest average loan amount, whereas Teen applicants receive the lowest.
+* The default rate remained relatively stable around 11–12%, peaking in 2016 (11.75%) before declining.
 
 
 📌 Page 2: Applicant Demographics & Financial Profile
 
-Customers with Low credit score bins have the highest median loan amount, while High credit score bins show comparatively lower median values.
-High-credit customers across different age groups and marital statuses have similar average loan amounts (~127K–128K).
-Adult customers contribute the largest total loan amount, while Low credit score bins contribute the least.
-For middle-aged adults, the presence of mortgage dependents has minimal impact on total loan amount.
-Loan counts are highest among applicants with a Bachelor's degree, followed by High School education.
+* Customers with Low credit score bins have the highest median loan amount, while High credit score bins show comparatively lower median values.
+* High-credit customers across different age groups and marital statuses have similar average loan amounts (~127K–128K).
+* Adult customers contribute the largest total loan amount, while Low credit score bins contribute the least.
+* For middle-aged adults, the presence of mortgage dependents has minimal impact on total loan amount.
+* Loan counts are highest among applicants with a Bachelor's degree, followed by High School education.
 
 📌 Page 3: Financial Risk Metrics
 
-Year-over-Year loan amount experienced fluctuations, with strong positive growth in 2015 and 2018.
-Default loans also showed significant YoY volatility, indicating changing credit risk conditions.
-High-income customers contribute the largest share of total income (≈17.88bn), while Low-income customers contribute comparatively less.
-Most low-income customers are distributed across part-time, unemployed, and self-employed employment categories.
-Medium and High credit score bins account for a substantial share of Year-to-Date loan amounts across different marital statuses.
+* Year-over-Year loan amount experienced fluctuations, with strong positive growth in 2015 and 2018.
+* Default loans also showed significant YoY volatility, indicating changing credit risk conditions.
+* High-income customers contribute the largest share of total income (≈17.88bn), while * Low-income customers contribute comparatively less.
+* Most low-income customers are distributed across part-time, unemployed, and self-employed employment categories.
+* Medium and High credit score bins account for a substantial share of Year-to-Date loan amounts across different marital statuses.
 
 ## 🚀 Future Enhancements
+
 Real-time loan monitoring
+
 Predictive default risk modeling
+
 Azure SQL Integration
+
 Machine Learning risk scoring
+
 Power BI Row-Level Security (RLS)
+
 Automated alerting system
 
-## 📁 Project Structure
-
-Loan-Risk-Analytics-Dashboard/
-│
-├── data/
-│   └── Loan_default.csv
-│
-├── database/
-│   └── SQL_Server_Database
-│
-├── dataflows/
-│   └── PowerBI_Dataflows
-│
-├── dashboard/
-│   └── Loan Analysis Power BI Project.pbix
-│
-├── reports/
-│   └── Loan Default Analysis Report.pdf
-│
-├── images/
-│   ├── loan_overview.png
-│   ├── demographics_dashboard.png
-│   └── risk_dashboard.png
-│
-└── README.md
 
 ## ▶️ Project Workflow
 
 Data Collection
+
 SQL Server Data Storage
+
 Power BI Dataflow Creation
+
 Data Cleaning & Transformation
+
 Data Modeling
+
 DAX Development
+
 Dashboard Development
+
 Power BI Service Deployment
+
 Scheduled Refresh Configuration
+
 Incremental Refresh Implementation
+
 Business Insights Generation
 
-## 🧠 Business Value
-
-This solution enables financial institutions to:
-
-Monitor loan portfolio performance
-Identify high-risk borrower segments
-Track default trends
-Improve lending decisions
-Automate reporting processes
-Scale analytics using cloud-based architecture
 
 ## ✅ Results & Outcomes
 
-Built an enterprise-grade Power BI solution
-Implemented SQL Server + Dataflow architecture
-Automated dataset refresh processes
-Created advanced DAX-based KPIs
-Delivered actionable loan risk insights
-Reduced manual reporting efforts
+* Built an enterprise-grade Power BI solution
+* Implemented SQL Server + Dataflow architecture
+* Automated dataset refresh processes
+* Created advanced DAX-based KPIs
+* Delivered actionable loan risk insights
+* Reduced manual reporting efforts
 
 #📬 Contact
 
